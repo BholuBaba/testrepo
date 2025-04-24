@@ -13,8 +13,7 @@ const GetAllBooks = () => {
         }
         else {
             const resData = await response.json();
-            //console.log(resData);
-            //return resData;
+
             const loadedBooks = [];
             for (const key in resData) {
                 loadedBooks.push({
