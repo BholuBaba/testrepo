@@ -11,7 +11,7 @@ function useCustomHook(){
         }
         else {
             const resData = await response.json();
-            //console.log(resData);
+            console.log(resData);
             //return resData;
             const loadedBooks = [];
             for (const key in resData) {
